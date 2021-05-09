@@ -1,0 +1,32 @@
+.Board {
+  margin: 0 auto;
+  background-color: rgb(196, 194, 194);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.Board-header{
+  color: white;
+  margin: 0;
+  padding: 3vh 0;
+}
+table{
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.Board-winner{
+  margin: 0;
+  padding-top: 30vh;
+  font-size: 3rem;
+  color: white;
+}
+
+.Board-restart{
+  margin: 10px 0;
+  padding: 5px 8px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
